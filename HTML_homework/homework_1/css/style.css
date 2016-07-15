@@ -1,0 +1,39 @@
+body {
+	background-color: #efefef;
+}
+
+.conteiner {
+	margin: 0 auto;
+	width: 512px;
+	background-color: #fff;
+	box-shadow: 0  0 0 2px rgba(0,0,0,0.1);
+}
+
+.main {
+	margin: 0 auto;
+	padding: 20 20 20 20px;
+	width: 412px;
+}
+
+span { 
+   display: block;
+   font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.image {
+	padding: 0 0 0 120px;
+}
+
+p {
+	padding: 0 0 0 20px;
+	font-size: 20px;
+}
+
+ul {
+	padding: 0 0 0 35px;
+	font-size: 20px;
+}

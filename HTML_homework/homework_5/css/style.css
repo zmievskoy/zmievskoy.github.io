@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+	clear: both;
+}
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: "Helvetica Neue Regular", Arial, sans-serif;
+	font-size: 14px;
+}
+.conteiner {
+	margin: 0 auto;
+ 	background: url(../img/background.jpg) no-repeat center center;
+ 	height: 100vh;
+ 	background-size: cover;
+}
+.header {
+	height: 36px;
+	line-height: 36px;
+	background-color: #085495;
+}
+.menu {
+	float: right;
+	border-right: 1px solid #56a2dc; 
+}
+.menu li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px; 
+}
+.menu li:hover {
+	color: white;
+}
+.menu a {
+	line-height: 36px;
+	display: inline-block;
+	text-decoration: none;
+	color: #60b5ed;
+	padding: 0 10px 0 10px;
+}
+.menu li:hover {
+	color: white;
+	background-color: #4eabda;
+}
+.menu a:hover {
+	color: white;
+}
+.header_left_side {
+	height: 36px;
+	line-height: 36px;
+	width: 350px;
+	float: right;
+}
+.header_left_side a {
+	height: 36px;
+	line-height: 36px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+}
+.header_left_side span{
+	text-decoration: underline;
+}
+.active {
+	height: 34px;
+	display: inline-block;
+	text-decoration: none;
+	background: rgb(99,168,227); 
+	background: -moz-linear-gradient(top, rgba(99,168,227,1) 0%, rgba(46,122,196,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(99,168,227,1) 0%,rgba(46,122,196,1) 100%); 
+	background: linear-gradient(to bottom, rgba(99,168,227,1) 0%,rgba(46,122,196,1) 100%); 
+	border-left: 1px solid #52a0da;
+	border-right: 1px solid #52a0da;
+	border-bottom: 1px solid #52a0da;
+}
+.flag {
+	padding: 7px 0 0 19px;
+	float:left;
+}
+.login_block {
+	background-color: rgba( 0, 0, 0, 0.5);
+	width: 560px;
+	height: 635px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.login_block h2 {
+	padding: 22px 0 22px 0;
+	text-align: center;
+	color:white;
+	border-bottom: 2px solid #c3cdb5;
+}
+.login_block p {
+	text-align: center;
+}
+.button_login {
+	margin: 36px auto;
+	height: 35px;
+	width: 276px;
+	line-height: 35px;
+	background: rgb(59,87,152); 
+	background: -moz-linear-gradient(top, rgba(59,87,152,1) 0%, rgba(48,66,116,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(59,87,152,1) 0%,rgba(48,66,116,1) 100%); 
+	text-align: center;
+	border-radius: 3px;
+	border-top: 1px solid #7889b7;
+}
+.facebook {
+	line-height: 35px;
+	color: white;
+	text-decoration: none;
+}
+.facebook:before {
+	content: " ";  
+    line-height: 35px;  
+  	float:left;
+    display: block;  
+    height: 35px;  
+    width: 40px;
+	background: url(../img/facebook_logo.png) no-repeat center center;
+	border-right: 1px solid #7889b7;
+}
+.facebook:after {
+	content: " ";  
+    line-height: 35px;  
+  	float:right;
+    display: block;  
+    height: 35px;  
+    width: 40px;
+	background: url(../img/ykazatel.png) no-repeat center center;
+}
+.facebook span {
+	font-weight: bold;
+}
+.line {
+	width: 276px;
+	margin: 0 auto;
+	color: #a8a8a8;
+	margin-bottom: 30px;
+}
+.left_line {
+	height: 2px;
+	width: 120px;
+	border-bottom: 1px solid #a8a8a8;
+	background-color: #a8a8a8; 
+	float: left;
+	margin-top: 5px;
+}
+.right_line {
+	height: 2px;
+	width: 120px;
+	border-bottom: 1px solid #a8a8a8;
+	background-color: #a8a8a8; 
+	float: right;
+	margin-top: 5px;
+}
+.reg_form p {
+	width: 276px;
+	margin: 0 auto;
+	color:#a8a8a8;
+}
+.intup_text {
+	height: 35px;
+	width: 276px;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	padding-left: 5px;
+	outline: none;
+	display: block; 
+	background-color:black;
+	color:#a8a8a8;
+	border: 1px solid black;
+	border-bottom: 1px solid #484746;
+}
+.intup_text:focus {
+    -webkit-box-shadow: 0px 0px 10px #007eff;
+    -moz-box-shadow: 0px 0px 10px #007eff;
+    box-shadow: 0px 0px 10px #007eff;
+    background: #1b5288;
+    border: 1px solid #1b5288;
+    border-bottom: 1px solid #689bcc;
+    color: white;
+}
+.submit_button {
+	height: 36px;
+	width: 150px;
+	margin: 24px 0 20px 0;
+	border: 1px solid #4299d2;
+	border-radius: 3px;
+	background: rgb(46,122,196);
+	background: -moz-linear-gradient(top, rgba(46,122,196,1) 0%, rgba(79,173,219,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(46,122,196,1) 0%,rgba(79,173,219,1) 100%); 
+	background: linear-gradient(to bottom, rgba(46,122,196,1) 0%,rgba(79,173,219,1) 100%); 
+	color: white;
+}

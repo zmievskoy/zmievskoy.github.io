@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 auto;
+	background-color: #f9f9f9;
+}
+.clearfix {
+	clear: both;
+}
+.conteiner {
+	margin: 0 auto;
+	background-color: #fff;
+	width: 1060px;
+	box-shadow: 0px -3px 5px 0 rgba(0,0,0,0.2);
+	padding: 50px 46px 0 46px;
+	box-sizing: border-box;
+}
+.header_menu {
+	margin: 40px 0 0 0;
+	height: 40px;
+	line-height: 40px;
+	background: -moz-linear-gradient(top, #5d5d5d 0%, #444343 100%);
+	background: -webkit-linear-gradient(top, #5d5d5d 0%,#444343 100%); 
+}
+.header_menu li { 
+	list-style: none;
+	display: inline-block;
+	}	
+.header_menu a {
+	height:40px;
+	line-height:40px;
+	padding:0 30px 0 24px;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.header_menu li:hover {
+	background: -moz-linear-gradient(top, #494949 0%, #2e2e2e 100%); 
+	background: -webkit-linear-gradient(top, #494949 0%,#2e2e2e 100%); 
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	margin: 0 -1px 0 -1px;
+}
+.header_menu li:first-child:hover {
+	border-left: 0px;
+	margin: 0 -1px 0 0;
+}
+main {
+	margin: 40px 0 0 0;
+}
+.left_side {
+	float: left;
+	width: 240px;
+	border: 1px solid #c8c8c8;
+}
+.side_bar li {
+	list-style: none;
+	height:40px;
+	font-size: 18px;
+	border-bottom: 1px solid #c8c8c8;
+	line-height: 38px;
+}
+.side_bar li:last-child {
+	border-bottom: 0px;
+}
+.side_bar a {
+	color: #7a7878;
+	text-decoration: none;
+	padding: 0 30px 0 24px;
+}
+.side_bar li:hover {
+	background-color: #f9f9f9;
+}
+.side_bar a:hover {
+	color: black;
+	margin: 0 0 0 20px;
+}
+.right_side {
+	float: right;
+	width: 678px;
+}
+.image{
+	border: 1px solid #c8c8c8;
+}
+.image img {
+	padding: 0 0 0 100px;
+}
+.right_side p {
+	margin: 40px 0 0 24px;
+}
+footer {
+	margin-top:60px;
+	background-color: #e1e1e1;
+	height: 40px;
+}
+.footer_menu{
+	float:left;
+	background-color: #e1e1e1;
+	line-height: 38px;
+}
+.footer_menu li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer_menu a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 30px 0 24px;
+	color: #000;
+}
+.footer_menu a:hover {
+	text-decoration: underline;
+}
+.copyright {
+	padding: 0 25px 0 0 ;
+	height: 40px;
+	line-height: 38px;
+	float: right;
+	text-align: right;
+}
