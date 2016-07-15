@@ -60,8 +60,8 @@ body {
 	float: right;
 }
 .header_left_side a {
-	height: 36px;
-	line-height: 36px;
+	height: 33px;
+	line-height: 33px;
 	color: white;
 	display: inline-block;
 	text-decoration: none;
@@ -71,7 +71,6 @@ body {
 	text-decoration: underline;
 }
 .active {
-	height: 34px;
 	display: inline-block;
 	text-decoration: none;
 	background: rgb(99,168,227); 
