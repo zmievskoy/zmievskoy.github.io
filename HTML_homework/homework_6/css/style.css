@@ -88,19 +88,13 @@ body {
 	height: 24px;
 	line-height: 24px;
 	font-size: 11px;
-	background: rgba(31,102,133,1);
-	background: -moz-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(12,51,87,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,102,133,1)), color-stop(100%, rgba(12,51,87,1)));
-	background: -webkit-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(12,51,87,1) 100%);
-	background: -o-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(12,51,87,1) 100%);
-	background: -ms-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(12,51,87,1) 100%);
-	background: linear-gradient(to bottom, rgba(31,102,133,1) 0%, rgba(12,51,87,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6685', endColorstr='#0c3357', GradientType=0 );
-	-webkit-box-shadow: 2px 2px 3px #969696;
-    -moz-box-shadow: 2px 2px 3px #969696;
-	border: 0;
 	color: white;
 	font-family: Lucida Sans Unicode Regular;
+	text-decoration: none;
+}
+.login_button:hover,
+.reg_button:hover {
+	color:#bfbfbf;
 }
 .password_button {
 	height: 24px;
@@ -117,11 +111,14 @@ body {
     -moz-box-shadow: 2px 2px 3px #969696;
 	border: 0;
 	font-family: Lucida Sans Unicode Regular;
-	color: #bfbfbf;
+	color: white;
 	font-size: 12px;
 	float: right;
 	margin-right: 8px;
 	text-decoration: underline;
+}
+.password_button:hover {
+	color:#bfbfbf;
 }
 .top_menu {
 	width: 77px;
@@ -141,6 +138,9 @@ body {
 .baner {
 	height: 237px;
 	background: url(../img/background.jpg);
+}
+.logo {
+	padding-top: 48px;
 }
 .header_menu {
 	height: 34px;
@@ -524,7 +524,7 @@ margin-top: -3px;
 
 
 
-article {
+section {
 	width: 507px;
 	border-radius: 4px;
 	padding: 0 0 20px 21px;
@@ -543,7 +543,9 @@ figure {
 	width: 138px;
 	display: inline-block;
 	margin-right: 26px;
-
+}
+figure a{
+	text-decoration: none;
 }
 figcaption {
 	font-size: 15px;
@@ -599,7 +601,7 @@ figcaption span {
 	width: 178px;
 	font-size: 14px;
 	color: #114165;
-	border-radius: 6px;
+	border-radius: 12px;
 	font-family: Lucida Sans Unicode Regular;
 	border: 1px solid #bdc4c7;
 	-webkit-box-shadow: 1px 1px 3px #969696;
